@@ -1,9 +1,104 @@
 /* Add styling for your page here */
 
-.App {
+body {
+    background-color: #F6EFEE;
+}
 
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.bakery-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 20px;
+}
+
+.bakery-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cart-container {
+    width: 25%;
 }
 
 .BakeryItem {
-  
+
+}
+
+.item-container {
+    display: flex;
+    height: 200px;
+    max-width: 450px;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.add-button {
+    cursor: pointer;
+    user-select: none;
+}
+
+img {
+    width: 275px;
+    height: 200px;
+    border-radius: 0 10px 10px 0;
+}
+
+.item-desc-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #E2B6CF;
+    border-radius:  10px 0 0 10px;
+    padding: 7px;
+}
+
+.item-name {
+    font-size: large;
+    font-weight: 600;
+}
+
+.item-description {
+    font-size: small;
+    font-weight: 300;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.add-button {
+    background-color: #E365C1;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.add-button:hover {
+    background-color: #E396DF;
+}
+
+.add-button:active {
+    box-shadow: 0 0 4px #F6EFEE;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-container {
+    padding: 20px;
+    background-color: #CCE8CC;
+    gap: 15px;
 }
