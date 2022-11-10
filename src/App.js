@@ -9,6 +9,8 @@ bakeryData.forEach((item) => {
 });
 /* ############################################################## */
 
+// test
+
 function App() {
   // TODO: use useState to create a state variable to hold the state of the cart
   /* add your cart state code here */
